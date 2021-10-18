@@ -114,3 +114,10 @@ FlutterAppCache.instance?.clearAppCache().then((value) {
   debugPrint('Main clearAppcache error: $e');
 });
 ```
+
+
+### Integration test
+To integration test in example, by run:
+```
+flutter test integration_test/app_test.dart
+```
