@@ -64,9 +64,9 @@ class _CameraAppState extends State<CameraApp> {
             ///
             /// Write file and cache to database
             ///
-            // List<String>? writeFileResult = await FlutterAppCache.instance
-            //     ?.writeFile(filePaths: [value.path], subFolder: 'videos');
-            // debugPrint('writeFileResult:::::$writeFileResult');
+            List<String>? writeFileResult = await FlutterAppCache.instance
+                ?.writeFile(filePaths: [value.path], subFolder: 'videos');
+            debugPrint('writeFileResult:::::$writeFileResult');
 
             ///
             /// count file

@@ -121,3 +121,5 @@ To integration test in example, by run:
 ```
 flutter test integration_test/app_test.dart
 ```
+
+![Integration test result](picture/test_result.png)
